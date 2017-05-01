@@ -1,0 +1,64 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/itemiv11"
+                android:layout_width="106dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/itemtv11"
+                android:layout_width="80dp"
+                android:layout_height="200dp"
+                android:layout_weight="0.29" />
+
+            <TextView
+                android:id="@+id/itemtv12"
+                android:layout_width="100dp"
+                android:layout_height="200dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/itemiv21"
+                android:layout_width="105dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/itemtv21"
+                android:layout_width="100dp"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:id="@+id/itemtv22"
+                android:layout_width="100dp"
+                android:layout_height="200dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
